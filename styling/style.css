@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 10vh;
+  background-color: #29272C;
+}
+
+.first100vh {
+  background-color: #29272C;
+}
+
+.first100vh .align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first100vh img {
+  padding-left: 150px;
+  height: 75vh;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.first100vh .boldline {
+  font-family: msemibold,sans-serif;
+  line-height: 3.25rem;
+  font-size: 2.5em;
+  color: white;
+  margin-left: 130px;
+  margin-top: 180px;
+  letter-spacing: 9px;
+}
+
+.first100vh .linebelow {
+  color: white;
+  margin-left: 130px;
+  margin-top: 25px;
+  opacity: 0.5;
+  font-size: 18px;
+  line-height: 1.6rem;
+}
+
+.first100vh .gradient {
+  padding: 10px;
+  margin-left: 130px;
+  border-radius: 25px;
+  background-image: linear-gradient(67deg, #00eee9, #00eb82);
+  color: #000;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+  border: none;
+  padding: 15px;
+}
+
+.first100vh .scroll {
+  color: white;
+  background-color: black;
+  padding: 26px;
+  margin-left: 130px;
+  margin-top: 33px;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */
