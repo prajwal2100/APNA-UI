@@ -359,5 +359,21 @@
 
 
   .particle{
-      height: 100vh;
+    margin: 0;
+    padding: 0;
+    height: 100vh;  
   }
+
+#particles-js{
+  height: 100%;
+  background:white;
+}
+
+.particleinfo{
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.375em;
+  font-family:'msemibold', sans-serif;
+  width: 500px;
+  
+}
