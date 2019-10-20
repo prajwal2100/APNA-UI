@@ -20,7 +20,7 @@
 
 .first100vh img {
   padding-left: 150px;
-  height: 75vh;
+  height: 80vh;
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
