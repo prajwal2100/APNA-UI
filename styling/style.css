@@ -375,18 +375,35 @@
   margin: 0;
   padding: 0;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 #particles-js {
   height: 100%;
-  background: white;
+  background: blck;
+  width: 65%;
+}
+
+.particlerebase {
+  width: 50%;
 }
 
 .particleinfo {
   font-weight: bold;
-  font-size: 2em;
-  line-height: 1.375em;
+  font-size: 1.8em;
+  line-height: 1.3em;
+  letter-spacing: 6px;
   font-family: 'msemibold', sans-serif;
+  width: 500px;
+  text-transform: uppercase;
+  padding-top: 200px;
+  padding-left: 100px;
+}
+
+.particleinfo2 {
+  padding-left: 100px;
   width: 500px;
 }
 
