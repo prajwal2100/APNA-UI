@@ -3,7 +3,7 @@
     padding: 0;
 }
 .navbar{
-    height: 20vh;
+    height: 10vh;
     background-color: #29272C;
 }
 
@@ -12,8 +12,7 @@
     .align{
         display: flex;
     }
-    img{
-        
+    img{        
         padding-left: 150px;
         height: 75vh;
         justify-content: right;
@@ -24,7 +23,7 @@
         font-size: 2.5em;
         color: white;
         margin-left:130px;
-        margin-top: 45px;
+        margin-top: 15px;
         letter-spacing: 9px;
     }
 
@@ -72,7 +71,7 @@
         letter-spacing: 6px;
         font-weight: bold;
         text-transform: uppercase;
-        width: 520px;
+        width: 400px;
         margin-right: 70px;
     }
 
