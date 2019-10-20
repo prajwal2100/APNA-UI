@@ -2,10 +2,111 @@
     margin: 0;
     padding: 0;
 }
-.navbar{
-    height: 10vh;
+.navbar12{
+    height: 20vh;
     background-color: #29272C;
 }
+
+@font-face{
+  font-family: futurapt;
+  src:url(../fonts/futurapt.otf) format("opentype") ;
+} 
+
+.login1{
+  
+  border-radius: 25px;
+  background-image: linear-gradient(67deg,#00eee9,#00eb82);
+  color: #000;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  margin-left: 360px;
+  font-weight: bold;
+  border: none;
+}
+
+.login2{
+  
+  border-radius: 25px;
+  background-image: linear-gradient(67deg,#00eee9,#00eb82);
+  color: #000;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+}
+
+.navbar{
+  position: absolute;
+  top:0;
+  display: flex;
+  z-index: 1;
+  
+  height: 60px;
+  // background: rgba(238,239,239,0.78);
+  width: 1110px;
+  height: 56px;
+  margin-left: 130px;
+  margin-top: 40px;
+}
+.shit{
+  margin-left: 50px;
+}
+.navbar ul{
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: left;
+  padding-left: 0px;
+}
+.navbar ul li{
+  margin:0.2rem;
+  padding-right: 0;
+  padding-top: 5px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: lightgray;
+  font-size: 16px;
+  margin-right: 20px;
+  padding-top: 10px;
+  font-family:futurapt;
+  &:hover{
+    border-bottom: 2.5px solid #00eb82;
+  }
+}
+.navbar ul li img{
+  padding-right: 12px;
+  height: 17px;
+}
+.menu{
+  margin-left: 410px;
+  display: none;
+}
+.fb{
+  margin-left: 407px;
+}
+.navbutton{
+    text-decoration: none;
+font-size: 18px;
+color: white;
+border: none;
+border-top-right-radius: 17px;
+border-top-left-radius: 17px;
+border-bottom-left-radius: 17px;
+cursor: pointer;
+text-align: center;
+text-transform: uppercase;
+background-color: black;
+height: 30px;
+margin-right: 20px;
+padding: 6px;
+}
+
+
 
 .first100vh{
     background-color: #29272C;
@@ -23,7 +124,7 @@
         font-size: 2.5em;
         color: white;
         margin-left:130px;
-        margin-top: 15px;
+        margin-top: 40px;
         letter-spacing: 9px;
     }
 
@@ -45,8 +146,8 @@
         font-family: sans-serif;
         font-size: 18px;
         font-weight: bold;
-        margin-top: 30px;
         border: none;
+        margin-top: 30px;
         padding: 15px;
     }
     .scroll{
@@ -225,7 +326,8 @@
     text-decoration: none;
     display: block;
     font-size: 14px;
-    color: #666;
+    color: white;
+    opacity: 0.7;
   }
   
   .footer .block ul li a:hover {
@@ -255,9 +357,9 @@
   
   .footer .block-2 {
     padding: 18px 30px;
-    background: linear-gradient(to right, #ff4b2c, #ff416a);
+    background:  linear-gradient(67deg,#00eee9,#00eb82);
   
-    border-radius: 2px;
+    border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
   
